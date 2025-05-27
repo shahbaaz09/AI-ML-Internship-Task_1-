@@ -39,4 +39,4 @@ Through this task, a practical understanding of key data preprocessing technique
 📁 Repository Contents
  * titanic.csv: The original, raw dataset used for the task.
  * titanic_cleaned.csv: The cleaned and preprocessed dataset after applying all the steps.
- * [task_1].ipynb: The Jupyter Notebook containing all the Python code used for data cleaning and preprocessing.
+ * task_1.ipynb: The Jupyter Notebook containing all the Python code used for data cleaning and preprocessing.
