@@ -1,15 +1,20 @@
 Task 1: Data Cleaning & Preprocessing - AI & ML Internship
 This repository contains the solution for Task 1: Data Cleaning & Preprocessing as part of the AI & ML Internship by Elevate Labs.
+
+
 🎯 Objective
 The primary objective of this task was to learn how to clean and prepare raw data for machine learning models. This is a crucial step to ensure that the data is in a suitable format for effective model training.
+
 🛠 Tools Used
  * Python: The core programming language used for data manipulation and analysis.
  * Pandas: A powerful library for data structures and data analysis, especially for tabular data.
  * NumPy: Used for numerical operations, often working in conjunction with Pandas.
  * Matplotlib & Seaborn: Libraries for data visualization, used to understand data distributions and identify outliers.
  * Scikit-learn: Utilized for preprocessing functionalities like StandardScaler and LabelEncoder.
+   
 📊 Dataset
 The Titanic Dataset was used for this task. This dataset contains information about passengers on the Titanic, including demographics, travel class, and survival status.
+
 📝 Steps Performed
 The following steps were implemented to clean and preprocess the dataset, adhering to the mini-guide provided:
  * Data Loading and Initial Exploration:
@@ -29,6 +34,7 @@ The following steps were implemented to clean and preprocess the dataset, adheri
    * Removal: Outliers in the 'Fare' column were removed using the Interquartile Range (IQR) method. Rows where 'Fare' values fell outside the calculated upper and lower bounds (Q1 - 1.5*IQR and Q3 + 1.5*IQR) were filtered out.
  * Normalizing/Standardizing Numerical Features:
    * Numerical features, including 'Age', 'Fare', 'SibSp', and 'Parch', were standardized using StandardScaler. This transforms the data to have a mean of 0 and a standard deviation of 1, ensuring that features with larger ranges do not disproportionately influence the model.
+
 🧠 What Was Learned
 Through this task, a practical understanding of key data preprocessing techniques was gained, including:
  * Identifying and handling various types of missing data.
@@ -36,6 +42,7 @@ Through this task, a practical understanding of key data preprocessing technique
  * Scaling numerical features to ensure consistent ranges across the dataset.
  * Detecting and managing outliers to improve data quality and model performance.
  * Understanding the importance of preprocessing in the overall machine learning workflow.
+
 📁 Repository Contents
  * titanic.csv: The original, raw dataset used for the task.
  * titanic_cleaned.csv: The cleaned and preprocessed dataset after applying all the steps.
